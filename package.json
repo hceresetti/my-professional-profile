@@ -1,33 +1,28 @@
 {
   "name": "development-for-mobile-devices-ii",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@types/react": "^18.2.21",
-    "@types/react-native": "^0.72.2",
-    "react": "^18.2.0",
-    "react-native": "^0.72.4"
-  },
+  "version": "0.1.0",
+  "description": "Development of applications using the React Native framework on mobile operating systems: user interface, microservices and database for automation, testing and debugging purposes.",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "coverage": "react-scripts test --coverage --watchAll=false",
-    "lint": "eslint \"src/**/*.{js,jsx}\"",
-    "eject": "react-scripts eject",
-    "serve": "node server"
+    "test": "exit 0"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hceresetti/development-for-mobile-devices-ii.git"
   },
-  "devDependencies": {
-    "eslint": "^8.48.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-native": "^4.0.0",
-    "react-native-paper": "^5.10.3",
-    "react-test-renderer": "^18.2.0",
-    "react-scripts": "^5.0.1"
-  }
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Henry Ceresetti <henry.ceresetti@fatec.sp.gov.br>",
+  "bugs": {
+    "url": "https://github.com/hceresetti/development-for-mobile-devices-ii/issues"
+  },
+  "homepage": "https://github.com/hceresetti/development-for-mobile-devices-ii#readme"
 }
