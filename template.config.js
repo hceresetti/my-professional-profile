@@ -1,2 +1,4 @@
-export const placeholderName = 'DevelopmentForMobileDevicesII';
-export const templateDir = './template';
+module.exports = {
+  placeholderName: 'HelloWorld',
+  templateDir: './template',
+}

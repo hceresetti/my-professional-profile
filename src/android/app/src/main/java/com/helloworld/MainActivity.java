@@ -1,4 +1,4 @@
-package com.developmentformobiledevicesii;
+package com.helloworld;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -12,7 +12,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "DevelopmentForMobileDevicesII";
+    return "HelloWorld";
   }
 
   /**

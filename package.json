@@ -1,6 +1,6 @@
 {
   "name": "development-for-mobile-devices-ii",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Development of applications using the React Native framework on mobile operating systems: user interface, microservices and database for automation, testing and debugging purposes.",
   "scripts": {
     "test": "exit 0"
@@ -21,6 +21,7 @@
     "boilerplate"
   ],
   "author": "Henry Ceresetti <henry.ceresetti@fatec.sp.gov.br>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hceresetti/development-for-mobile-devices-ii/issues"
   },

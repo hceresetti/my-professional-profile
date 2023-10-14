@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
-        run: npm
+        run: yarn
       - run: mv _eslintrc.js .eslintrc.js && mv _prettierrc.js .prettierrc.js
       - name: Lint code
-        run: npm lint
+        run: yarn lint
